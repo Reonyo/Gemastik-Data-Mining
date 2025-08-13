@@ -1,0 +1,22 @@
+{
+  "metadata": {
+    "description": "Sample dataset for testing",
+    "total": 2
+  },
+  "essays": [
+    {
+      "id": "sample_essay_1",
+      "case_description": "PT Bank ABC memberikan pinjaman kepada PT XYZ dengan jaminan tanah.",
+      "instruction": "1. Buatlah surat kuasa khusus untuk menggugat wanprestasi.",
+      "answer": "SURAT KUASA KHUSUS\n\nYang bertanda tangan di bawah ini...",
+      "type": "essay"
+    },
+    {
+      "id": "sample_essay_2",
+      "case_description": "Sengketa jual beli tanah antara Ny. A dan Tn. B.",
+      "instruction": "1. Buatlah gugatan sederhana untuk kasus ini.",
+      "answer": "GUGATAN PERDATA\n\nKepada Yth. Ketua Pengadilan Negeri...",
+      "type": "essay"
+    }
+  ]
+}

@@ -1,0 +1,78 @@
+# Multi-Agent Legal AI System - Production Requirements
+
+# Core Framework
+langchain==0.2.16
+langraph==0.2.14
+langgraph-checkpoint==1.0.12
+
+# LLM APIs and Providers
+groq==0.11.0
+openai==1.51.2
+anthropic==0.34.2
+
+# Vector Database and Embeddings
+chromadb==0.5.4
+sentence-transformers==2.7.0
+huggingface-hub==0.25.1
+
+# Web Interface
+gradio==4.44.1
+fastapi==0.115.0
+uvicorn==0.31.0
+
+# Data Processing
+pandas==2.2.3
+numpy==1.26.4
+PyPDF2==3.0.1
+python-docx==0.8.11
+pymupdf==1.24.9
+
+# Text Processing and NLP
+regex>=2023.12.25
+nltk==3.9.1
+spacy==3.7.6
+transformers==4.45.2
+
+# Evaluation and Metrics
+scikit-learn==1.5.2
+scipy==1.14.1
+matplotlib==3.9.2
+seaborn==0.13.2
+
+# Configuration and Environment
+python-dotenv==1.0.1
+pydantic==2.9.2
+pydantic-settings==2.5.2
+
+# Utilities
+tqdm==4.66.5
+requests==2.32.3
+pathlib2==2.3.7
+colorlog==6.8.2
+
+# Development and Testing
+pytest==8.3.3
+pytest-cov==5.0.0
+black==24.8.0
+flake8==7.1.1
+mypy==1.11.2
+
+# Database and Storage
+sqlalchemy==2.0.35
+
+# Async Processing
+aiohttp==3.10.6
+
+# Indonesian NLP Support
+Sastrawi==1.0.1
+
+# OCR Support (optional)
+easyocr==1.7.1
+
+# Additional Utilities
+python-multipart==0.0.12
+pillow==10.4.0
+jinja2==3.1.4
+
+# Production Deployment
+gunicorn==23.0.0

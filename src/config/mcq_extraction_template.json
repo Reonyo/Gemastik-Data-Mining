@@ -1,0 +1,68 @@
+{
+  "instructions": "Fill in the extracted MCQ data here",
+  "total_questions": 280,
+  "questions": [
+    {
+      "id": "mcq_1",
+      "type": "multiple_choice",
+      "question": "EXTRACT_QUESTION_TEXT_HERE",
+      "options": {
+        "A": "OPTION_A_TEXT",
+        "B": "OPTION_B_TEXT",
+        "C": "OPTION_C_TEXT",
+        "D": "OPTION_D_TEXT"
+      },
+      "correct_answer": "CORRECT_LETTER",
+      "justification": "OFFICIAL_REASONING_IF_AVAILABLE"
+    },
+    {
+      "id": "mcq_2",
+      "type": "multiple_choice",
+      "question": "EXTRACT_QUESTION_TEXT_HERE",
+      "options": {
+        "A": "OPTION_A_TEXT",
+        "B": "OPTION_B_TEXT",
+        "C": "OPTION_C_TEXT",
+        "D": "OPTION_D_TEXT"
+      },
+      "correct_answer": "CORRECT_LETTER",
+      "justification": "OFFICIAL_REASONING_IF_AVAILABLE"
+    },
+    {
+      "id": "mcq_3",
+      "type": "multiple_choice",
+      "question": "SOME QUESTION MAYBE ONLY 2 OPTION",
+      "options": {
+        "A": "OPTION_A_TEXT",
+        "B": "OPTION_B_TEXT"
+      },
+      "correct_answer": "CORRECT_LETTER",
+      "justification": "OFFICIAL_REASONING_IF_AVAILABLE"
+    },
+    {
+      "id": "mcq_4",
+      "type": "multiple_choice",
+      "question": "OR EVEN 3 OPTION ONLY",
+      "options": {
+        "A": "OPTION_A_TEXT",
+        "B": "OPTION_B_TEXT",
+        "C": "OPTION_C_TEXT"
+      },
+      "correct_answer": "CORRECT_LETTER",
+      "justification": "OFFICIAL_REASONING_IF_AVAILABLE"
+    },
+    {
+      "id": "mcq_5",
+      "type": "multiple_choice",
+      "question": "EXTRACT_QUESTION_TEXT_HERE",
+      "options": {
+        "A": "OPTION_A_TEXT",
+        "B": "OPTION_B_TEXT",
+        "C": "OPTION_C_TEXT",
+        "D": "OPTION_D_TEXT"
+      },
+      "correct_answer": "CORRECT_LETTER",
+      "justification": "OFFICIAL_REASONING_IF_AVAILABLE"
+    }
+  ]
+}

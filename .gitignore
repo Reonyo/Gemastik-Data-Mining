@@ -6,6 +6,82 @@ __pycache__/
 # C extensions
 *.so
 
+# Data files - exclude actual data but keep directory structure
+data/raw_legal_docs/*
+!data/raw_legal_docs/.gitkeep
+data/vector_db/*
+!data/vector_db/.gitkeep
+data/vector_db_*/
+data/cache/*
+!data/cache/.gitkeep
+
+# Raw evaluation dataset files
+data/raw_evaluation_dataset/*.pdf
+data/raw_evaluation_dataset/*.txt
+data/raw_evaluation_dataset/*.doc
+data/raw_evaluation_dataset/*.docx
+
+# Processed data files
+data/processed/*.json
+data/processed/*.jsonl
+
+# Answer keys (actual evaluation data)
+data/answer_keys/*.json
+
+# Legal documents (any format)
+*.pdf
+*.doc
+*.docx
+
+# Evaluation results and outputs
+evaluation/results/*.json
+test/results/*.json
+
+# Backup folders
+backup/
+!backup/.gitkeep
+
+# Environment and logs
+*.log
+*.db
+*.sqlite
+*.sqlite3
+
+# Large dataset files
+*.jsonl
+# But keep configuration files
+
+# Virtual environment
+venv/
+env/
+.env
+!.env.example
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Gradio cache
+.gradio/
+
+# Temporary files
+*.tmp
+*.temp
+!src/config/*.json
+!evaluation_config.json
+
 # Distribution / packaging
 .Python
 build/
@@ -179,3 +255,15 @@ cython_debug/
 #  refer to https://docs.cursor.com/context/ignore-files
 .cursorignore
 .cursorindexingignore
+
+data/processed/*
+data/raw_evaluation_dataset/*
+data/raw_legal_docs/*
+!data/.gitkeep
+!data/processed/.gitkeep
+!data/raw_evaluation_dataset/.gitkeep
+!data/raw_legal_docs/.gitkeep
+
+backup/*
+!backup/.gitkeep
+.gradio

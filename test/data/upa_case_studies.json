@@ -1,0 +1,9 @@
+{
+  "metadata": {
+    "name": "UPA Case Studies",
+    "description": "6 case studies from UPA exam",
+    "case_count": 0,
+    "evaluation_metric": "semantic_reasoning_score"
+  },
+  "cases": []
+}

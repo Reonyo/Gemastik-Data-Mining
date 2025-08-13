@@ -1,0 +1,9 @@
+{
+  "metadata": {
+    "name": "UPA Multiple Choice Questions",
+    "description": "280 multiple choice questions from UPA exam",
+    "question_count": 0,
+    "evaluation_metric": "accuracy"
+  },
+  "questions": []
+}

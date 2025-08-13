@@ -1,0 +1,156 @@
+{
+  "instructions": "Fill in the extracted essay data here",
+  "total_essays": 10,
+  "essays": [
+    {
+      "id": "essay_1",
+      "type": "case_study",
+      "pdf_source": "Essay 1.pdf",
+      "scenario": "EXTRACT_CASE_SCENARIO_HERE",
+      "questions": [
+        "EXTRACT_QUESTION_1",
+        "EXTRACT_QUESTION_2_IF_EXISTS"
+      ],
+      "official_answer": "EXTRACT_OFFICIAL_ANSWER_IF_AVAILABLE",
+      "key_points": [
+        "KEY_LEGAL_POINT_1",
+        "KEY_LEGAL_POINT_2"
+      ]
+    },
+    {
+      "id": "essay_2",
+      "type": "case_study",
+      "pdf_source": "Essay 1.pdf",
+      "scenario": "EXTRACT_CASE_SCENARIO_HERE",
+      "questions": [
+        "EXTRACT_QUESTION_1",
+        "EXTRACT_QUESTION_2_IF_EXISTS"
+      ],
+      "official_answer": "EXTRACT_OFFICIAL_ANSWER_IF_AVAILABLE",
+      "key_points": [
+        "KEY_LEGAL_POINT_1",
+        "KEY_LEGAL_POINT_2"
+      ]
+    },
+    {
+      "id": "essay_3",
+      "type": "case_study",
+      "pdf_source": "Essay 2.pdf",
+      "scenario": "EXTRACT_CASE_SCENARIO_HERE",
+      "questions": [
+        "EXTRACT_QUESTION_1",
+        "EXTRACT_QUESTION_2_IF_EXISTS"
+      ],
+      "official_answer": "EXTRACT_OFFICIAL_ANSWER_IF_AVAILABLE",
+      "key_points": [
+        "KEY_LEGAL_POINT_1",
+        "KEY_LEGAL_POINT_2"
+      ]
+    },
+    {
+      "id": "essay_4",
+      "type": "case_study",
+      "pdf_source": "Essay 2.pdf",
+      "scenario": "EXTRACT_CASE_SCENARIO_HERE",
+      "questions": [
+        "EXTRACT_QUESTION_1",
+        "EXTRACT_QUESTION_2_IF_EXISTS"
+      ],
+      "official_answer": "EXTRACT_OFFICIAL_ANSWER_IF_AVAILABLE",
+      "key_points": [
+        "KEY_LEGAL_POINT_1",
+        "KEY_LEGAL_POINT_2"
+      ]
+    },
+    {
+      "id": "essay_5",
+      "type": "case_study",
+      "pdf_source": "Essay 3.pdf",
+      "scenario": "EXTRACT_CASE_SCENARIO_HERE",
+      "questions": [
+        "EXTRACT_QUESTION_1",
+        "EXTRACT_QUESTION_2_IF_EXISTS"
+      ],
+      "official_answer": "EXTRACT_OFFICIAL_ANSWER_IF_AVAILABLE",
+      "key_points": [
+        "KEY_LEGAL_POINT_1",
+        "KEY_LEGAL_POINT_2"
+      ]
+    },
+    {
+      "id": "essay_6",
+      "type": "case_study",
+      "pdf_source": "Essay 3.pdf",
+      "scenario": "EXTRACT_CASE_SCENARIO_HERE",
+      "questions": [
+        "EXTRACT_QUESTION_1",
+        "EXTRACT_QUESTION_2_IF_EXISTS"
+      ],
+      "official_answer": "EXTRACT_OFFICIAL_ANSWER_IF_AVAILABLE",
+      "key_points": [
+        "KEY_LEGAL_POINT_1",
+        "KEY_LEGAL_POINT_2"
+      ]
+    },
+    {
+      "id": "essay_7",
+      "type": "case_study",
+      "pdf_source": "Essay 4.pdf",
+      "scenario": "EXTRACT_CASE_SCENARIO_HERE",
+      "questions": [
+        "EXTRACT_QUESTION_1",
+        "EXTRACT_QUESTION_2_IF_EXISTS"
+      ],
+      "official_answer": "EXTRACT_OFFICIAL_ANSWER_IF_AVAILABLE",
+      "key_points": [
+        "KEY_LEGAL_POINT_1",
+        "KEY_LEGAL_POINT_2"
+      ]
+    },
+    {
+      "id": "essay_8",
+      "type": "case_study",
+      "pdf_source": "Essay 4.pdf",
+      "scenario": "EXTRACT_CASE_SCENARIO_HERE",
+      "questions": [
+        "EXTRACT_QUESTION_1",
+        "EXTRACT_QUESTION_2_IF_EXISTS"
+      ],
+      "official_answer": "EXTRACT_OFFICIAL_ANSWER_IF_AVAILABLE",
+      "key_points": [
+        "KEY_LEGAL_POINT_1",
+        "KEY_LEGAL_POINT_2"
+      ]
+    },
+    {
+      "id": "essay_9",
+      "type": "case_study",
+      "pdf_source": "Essay 5.pdf",
+      "scenario": "EXTRACT_CASE_SCENARIO_HERE",
+      "questions": [
+        "EXTRACT_QUESTION_1",
+        "EXTRACT_QUESTION_2_IF_EXISTS"
+      ],
+      "official_answer": "EXTRACT_OFFICIAL_ANSWER_IF_AVAILABLE",
+      "key_points": [
+        "KEY_LEGAL_POINT_1",
+        "KEY_LEGAL_POINT_2"
+      ]
+    },
+    {
+      "id": "essay_10",
+      "type": "case_study",
+      "pdf_source": "Essay 5.pdf",
+      "scenario": "EXTRACT_CASE_SCENARIO_HERE",
+      "questions": [
+        "EXTRACT_QUESTION_1",
+        "EXTRACT_QUESTION_2_IF_EXISTS"
+      ],
+      "official_answer": "EXTRACT_OFFICIAL_ANSWER_IF_AVAILABLE",
+      "key_points": [
+        "KEY_LEGAL_POINT_1",
+        "KEY_LEGAL_POINT_2"
+      ]
+    }
+  ]
+}

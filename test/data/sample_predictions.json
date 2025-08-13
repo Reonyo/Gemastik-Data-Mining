@@ -1,0 +1,20 @@
+[
+  {
+    "id": "sample_essay_1",
+    "system": "multi_agent",
+    "prediction": "SURAT KUASA KHUSUS\n\nSaya memberikan kuasa kepada advokat untuk menggugat...",
+    "confidence": 0.85
+  },
+  {
+    "id": "sample_essay_1",
+    "system": "simple_rag",
+    "prediction": "Surat kuasa dapat dibuat dengan format standar...",
+    "confidence": 0.75
+  },
+  {
+    "id": "sample_essay_2",
+    "system": "multi_agent",
+    "prediction": "GUGATAN PERDATA\n\nDengan hormat, kami mengajukan gugatan...",
+    "confidence": 0.8
+  }
+]

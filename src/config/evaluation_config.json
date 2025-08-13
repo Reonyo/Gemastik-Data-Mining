@@ -1,0 +1,50 @@
+{
+  "dataset_info": {
+    "total_mcq": 10,
+    "total_essays": 5,
+    "topics_covered": [
+      "Hukum Pertanahan",
+      "Hukum Kontrak",
+      "Hukum Konsumen",
+      "Undang-Undang Advokat",
+      "Hukum Pidana",
+      "Hukum Perbankan",
+      "Hukum Perdata",
+      "Perbuatan Melawan Hukum",
+      "Hukum Perusahaan",
+      "Hukum Keluarga",
+      "Hukum Ketenagakerjaan"
+    ],
+    "source": "Real UPA Exam Questions 2018-2023"
+  },
+  "evaluation_metrics": {
+    "metric_1": {
+      "name": "Answer Accuracy (MC)",
+      "description": "Percentage of correct multiple choice answers",
+      "formula": "correct_answers / total_questions * 100"
+    },
+    "metric_2": {
+      "name": "Semantic Reasoning Score (MC)",
+      "description": "LLM-as-judge evaluation of MC justification quality",
+      "judge_model": "gemma2-9b-it",
+      "scale": "0.0 to 1.0"
+    },
+    "metric_3": {
+      "name": "Semantic Reasoning Score (Essays)",
+      "description": "LLM-as-judge evaluation of essay analysis quality",
+      "judge_model": "gemma2-9b-it",
+      "scale": "0.0 to 1.0"
+    }
+  },
+  "systems_compared": {
+    "multi_agent": {
+      "supervisor": "llama-3.1-8b-instant",
+      "legal_assistant": "gemma2-9b-it",
+      "legal_researcher": "meta-llama/llama-4-maverick-17b-128e-instruct",
+      "senior_lawyer": "moonshotai/kimi-k2-instruct",
+      "legal_editor": "meta-llama/llama-4-maverick-17b-128e-instruct"
+    },
+    "simple_rag": "moonshotai/kimi-k2-instruct",
+    "single_llm": "moonshotai/kimi-k2-instruct"
+  }
+}
